@@ -9,6 +9,6 @@ node 'puppet' {
   include role::master_server
 }
 
-node /^client/{
+node /^ubuntu/{
   include role::client_role
 }
