@@ -1,5 +1,5 @@
 class profile::base {
-  user { 'admin':
+  user { 'admin': root
     ensure  => present,
   }
   
