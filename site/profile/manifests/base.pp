@@ -3,10 +3,7 @@ class profile::base {
     ensure  => present,
   }
   
-  file { '/root/README':
-    ensure => file,
-    content => "Bienvenue sur ${fqdn}\n",
-  }
+  
   
   file { '/root/MOTD':
     ensure => file,
