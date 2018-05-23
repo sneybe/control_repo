@@ -1,7 +1,5 @@
 node default {
-  user { 'bibi':
-    ensure => present,
-  }
+ include profile::default
 }
 
 
