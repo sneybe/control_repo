@@ -10,3 +10,7 @@ node 'puppet' {
 node /^ubuntu/{
   include role::client_role
 }
+
+node /^web/{
+  include role::app_server
+}
